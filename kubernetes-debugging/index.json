@@ -13,10 +13,7 @@
             },
             {
                 "text": "step-resources.md"
-            },
-            {
-                "text": "step-probes.md"
-            },
+            }
         ],
         "intro": {
             "text": "intro.md",
