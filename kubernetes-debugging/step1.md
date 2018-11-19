@@ -42,16 +42,12 @@ To get details about the deployment
 
 `kubectl get pods`{{execute}}
 
-You get more information about a pod using:
+You get more information about the pods use:
 
-`kubectl describe pod `{{copy}}
+`kubectl describe pod`{{execute}}
 
-Fill in the exact name of the pod from the output of the previous command.
-
-
-Likewise you can get the log of a pod using:
-
-`kubectl logs `{{copy}}
+Also try doing descibe one a specific pod. Show the previous command with the up arrow key and then
+you can use tab autocompletion.
 
 
 

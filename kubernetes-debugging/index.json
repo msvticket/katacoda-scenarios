@@ -7,6 +7,9 @@
         "steps": [
             {
                 "text": "step1.md"
+            },
+            {
+                "text": "step-crash.md"
             }
         ],
         "intro": {
@@ -17,15 +20,13 @@
             "text": "finish.md"
         }
     },
-    "files" : ["nginx-with-request.yaml"],
+    "files" : ["nginx-with-request.yaml", "nginx-broken.yaml"],
     "environment": {
         "showdashboard": false,
-        "dashboard": "Dashboard",
         "uilayout": "editor-terminal",
         "uimessage1": "\u001b[32mYour Interactive Bash Terminal.\u001b[m\r\n"
     },
     "backend": {
-        "port": 443,
         "imageid": "kubernetes"
     }
 }
