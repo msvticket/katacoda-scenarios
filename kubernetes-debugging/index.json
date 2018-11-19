@@ -17,7 +17,7 @@
             "text": "finish.md"
         }
     },
-    "files" : ["nginx-with-request.yaml"]
+    "files" : ["nginx-with-request.yaml"],
     "environment": {
         "showdashboard": false,
         "dashboard": "Dashboard",
