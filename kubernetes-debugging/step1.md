@@ -38,13 +38,16 @@ spec:
 kubectl apply -f nginx-with-request.yaml
 `{{execute}}
 
-To get details about the deployment
+To get details about the deployment:
 
 `kubectl get pods`{{execute}}
 
 You get more information about the pods use:
 
 `kubectl describe pod`{{execute}}
+
+When running this repeateadly you will see that it takes a while to get the container running and
+messages about the progres are displayed in the bottom event section of the describe output.
 
 Also try doing descibe one a specific pod. Show the previous command with the up arrow key and then
 you can use tab autocompletion.
