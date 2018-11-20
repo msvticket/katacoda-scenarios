@@ -13,7 +13,10 @@
             },
             {
                 "text": "step-resources.md"
-            }
+            },
+            {
+                "text": "step-probes.md"
+            },
         ],
         "intro": {
             "text": "intro.md",
@@ -23,7 +26,7 @@
             "text": "finish.md"
         }
     },
-    "files" : ["nginx-with-request.yaml", "nginx-broken.yaml"],
+    "files" : ["nginx-with-request.yaml", "nginx-broken.yaml", "nginx-resource.yaml"],
     "environment": {
         "showdashboard": false,
         "uilayout": "editor-terminal",
