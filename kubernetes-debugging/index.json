@@ -16,7 +16,7 @@
                 "text": "step-resources.md"
             },
             {
-                "text": "step-probes.md"
+                "text": "step-exec.md"
             }
         ],
         "intro": {
@@ -27,7 +27,7 @@
             "text": "finish.md"
         }
     },
-    "files" : ["nginx-with-request.yaml", "nginx-broken.yaml", "nginx-resource.yaml"],
+    "files" : ["nginx-with-request.yaml", "nginx-broken.yaml", "nginx-resource.yaml", "nginx-probe.yaml"],
     "environment": {
         "showdashboard": false,
         "dashboard": "NGINX",
