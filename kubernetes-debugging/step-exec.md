@@ -16,3 +16,8 @@ To for example see all tcp connections in the container you can then execute
 `
 lsof -i
 `{{execute}}
+
+
+If a pod has several running containers (which for example the Jenkins build pods have) you have to specify which container to start a shell for. It would look something like this:
+
+`kubectl exec -it maven-fnb78 --container maven -- /bin/bash`
