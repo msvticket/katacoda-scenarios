@@ -1,1 +1,1 @@
-This is a workshop in debugging applikation execution problems in Kubernete. 
+This is a workshop in debugging application execution problems in Kubernete. 
