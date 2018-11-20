@@ -3,10 +3,16 @@ check logs that ar neither sent to standard output nor Elasticsearch.
 
 This is done with `kubectl exec -it __pod__ -- /bin/bash`{{copy}}. Try it it with one of the running pods!
 
-You might notice that very few commands are installed. It might be possible to install applications in the container that you need for debugging. Since the nginx images are built on debian you can use `apt-get` to install stuff. Try for example
+You might notice that very few commands are installed. It might be possible to install applications in the container that you need for debugging. Since the nginx images are built on debian you can use `apt-get` to install stuff. To install `lsof` try for example
 
 `
 apt-get update
 apt-get install lsof
+`
+
+
+To for example see all tcp connections in the container ypu can then execute
+
+`
 lsof -i
 `{{execute}}
