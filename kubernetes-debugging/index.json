@@ -3,6 +3,7 @@
     "icon": "fa-kubernetes",
     "title": "Kubernetes Debugging",
     "description": "Common Kubernetes debug cases",
+    "difficulty": "intermediate",
     "details": {
         "steps": [
             {
@@ -29,10 +30,12 @@
     "files" : ["nginx-with-request.yaml", "nginx-broken.yaml", "nginx-resource.yaml"],
     "environment": {
         "showdashboard": false,
+        "dashboard": "NGINX",
         "uilayout": "editor-terminal",
         "uimessage1": "\u001b[32mYour Interactive Bash Terminal.\u001b[m\r\n"
     },
     "backend": {
+        "port": 80,
         "imageid": "kubernetes"
     }
 }

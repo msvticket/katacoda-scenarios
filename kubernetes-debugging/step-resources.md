@@ -29,9 +29,15 @@ spec:
 
 
 `
-kubectl apply -f nginx-broken.yaml
+kubectl apply -f nginx-resource.yaml
 `{{execute}}
 
-So, how did this go. As in the previous step check the name of the pod with `kubectl get pods` and the details with `kubectl describe pod`.
+So, how did this go. As in the previous step check the name of the pod with `kubectl get pods`{{execute}} and the details with `kubectl describe pod`.
 
-So, what is the problem?
+What is happening?
+
+What is the problem?
+
+Can you fix it?
+
+More information: https://kubernetes.io/docs/tasks/debug-application-cluster/debug-pod-replication-controller/#my-pod-stays-pending
