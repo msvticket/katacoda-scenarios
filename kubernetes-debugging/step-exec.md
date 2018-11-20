@@ -8,4 +8,4 @@ You might notice that very few commands are installed. It might be possible to i
 apt-get update
 apt-get install lsof
 lsof -i
-`
+`{{execute}}
