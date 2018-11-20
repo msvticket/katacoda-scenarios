@@ -10,12 +10,10 @@
                 "text": "step1.md"
             },
             {
-                "text": "step-crash.md",
-                "verify": "broken-running.sh"
+                "text": "step-crash.md"
             },
             {
-                "text": "step-resources.md",
-                "verify": "resource-running.sh"
+                "text": "step-resources.md"
             },
             {
                 "text": "step-probes.md"
